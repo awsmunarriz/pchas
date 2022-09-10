@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: #cae7fa;
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   line-height: 2;
@@ -116,6 +117,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(195, 216, 247);
+}
+
+.nav-principal a {
+  margin: 0px 10px 0px 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-principal a:hover{
+  transform: scaleY(1.5);
 }
 
 @media (min-width: 768px) {
@@ -153,6 +164,13 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+.animate{
+  transition: all 0.2s ease-in-out;
+}
+
+.animate:hover{
+ transform: scale(0.85);
 }
 
 @media (min-width: 768px) {
