@@ -1,0 +1,22 @@
+/** Nav **/
+.nav-link {
+  color: #037bc0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #1134c9;
+}
+
+.bg-sky {
+  background-color: rgb(195, 216, 247);
+}
+
+/** Header / Navegacion **/
+.nombre-sitio {
+  margin-top: 8rem;
+  text-align: center;
+  span {
+    color: #037bc0;
+  }
+}

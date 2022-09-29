@@ -1,27 +1,43 @@
-/** elbarrio **/
-.elbarrio {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+/** Galeria ElBarrio**/
+.galeria .col-lg-4 {
+  padding: 15px;
   img {
-    height: 40rem;
-    width: 40rem;
-    object-fit: cover;
-  }
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @media (max-width: 500px) {
-    grid-template-columns: 1fr;
+    height: 15rem;
+    width: 100%;
   }
 }
 
-.animate {
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    transform: scale(0.85);
+.elbarrio {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0px 0px 0px;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 60%;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1px;
+    width: 100%;
+  }
+  .elbarrio-img {
+    background-color: #e4e7ed;
+    img {
+      width: 100%;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  &:hover .elbarrio-img > img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
