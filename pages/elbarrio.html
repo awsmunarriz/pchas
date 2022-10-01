@@ -1,143 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Barrio</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>El Barrio</title>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
 
-  <!-- GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-  <!-- Estilos -->
-  <link rel="stylesheet" href="../css/main.css" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-sky fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img
+            src="../img/logo.png"
+            class="img-fluid rounded-circle"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="historias.html">Historias</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="elbarrio.html"
+                >El Barrio</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <h1 class="nombre-sitio">Parque <span> Chas </span> Web</h1>
+    </header>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-sky fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="img-fluid rounded-circle"
-          alt="logo" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="historias.html">Historias</a>
+    <main class="galeria container-fluid mb-5">
+      <h2 class="text-center h2 mt-4 mb-4">El Barrio</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_01.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_02.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_03.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_04.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_05.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_06.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_07.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_08.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="elbarrio">
+            <div class="elbarrio-img">
+              <img src="../img/galeria_09.jpg" alt="imagen el barrio" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="row my-5 py-5 text-muted text-center text-small bg-sky">
+      <div class="col">
+        <div class="anchoFooter">
+          <div class="redes">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://wa.me/541131508000" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="../index.html" class="nav-link px-2 text-muted">Inicio</a>
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+          <li class="list-inline-item">
+            <a href="historias.html" class="nav-link px-2 text-muted"
+              >Historias</a
+            >
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link active" aria-current="page" href="elbarrio.html">El Barrio</a>
+          <li class="list-inline-item">
+            <a href="ubicacion.html" class="nav-link px-2 text-muted"
+              >Ubicación</a
+            >
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+          <li class="list-inline-item">
+            <a href="elbarrio.html" class="nav-link px-2 text-muted"
+              >El Barrio</a
+            >
+          </li>
+          <li class="list-inline-item">
+            <a href="contacto.html" class="nav-link px-2 text-muted"
+              >Contacto</a
+            >
           </li>
         </ul>
+        <p class="mb-1">© 2022 Parque Chas, Web</p>
       </div>
-    </div>
-  </nav>
-  <header>
-    <h1 class="nombre-sitio">Parque <span> Chas </span> Web</h1>
-  </header>
-
-  <main class="galeria container-fluid mb-5">
-    <h2 class="text-center h2 mt-4 mb-4">El Barrio</h2>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_01.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_02.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_03.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_04.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_05.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_06.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_07.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_08.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="elbarrio">
-          <div class="elbarrio-img">
-            <img src="../img/galeria_09.jpg" alt="imagen el barrio" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <div class="container-fluid bg-sky">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-        <li class="nav-item"><a href="historias.html" class="nav-link px-2 text-muted">Historias</a></li>
-        <li class="nav-item"><a href="ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
-        <li class="nav-item"><a href="elbarrio.html" class="nav-link px-2 text-muted">El Barrio</a></li>
-        <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-      </ul>
-      <p class="text-center text-muted">© 2022 Parque Chas, Web</p>
     </footer>
-  </div>
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

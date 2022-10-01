@@ -1,13 +1,24 @@
 /** Formulario Contacto **/
+
+// MAP GET
+// Declarar el mapa
+$boton: (
+  mayusculas: uppercase,
+  peso: 900,
+  1rem: 1rem,
+  borde: none,
+  ancho: 100%,
+);
+
 .btn {
-  background-color: #04c3ee;
+  background-color: $colorBtnBg;
   display: block;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 900;
-  padding: 1rem;
+  color: $colorDefault;
+  text-transform: map-get($boton, mayusculas);
+  font-weight: map-get($boton, peso);
+  padding: map-get($boton, 1rem);
   transition: background-color 0.3s ease-out;
   text-align: center;
-  border: none;
-  width: 100%;
+  border: map-get($boton, borde);
+  width: map-get($boton, ancho);
 }

@@ -52,19 +52,19 @@ body {
   overflow: hidden;
   margin: 10px 0px 0px 0px; }
   .elbarrio:before {
+    width: 60%;
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0px;
-    width: 60%; }
+    left: 0px; }
   .elbarrio:after {
+    width: 100%;
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 1px;
-    width: 100%; }
+    left: 1px; }
   .elbarrio .elbarrio-img {
     background-color: #e4e7ed; }
     .elbarrio .elbarrio-img img {
@@ -75,3 +75,20 @@ body {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
+
+/* Footer */
+.bi, .bi-facebook, .bi-whatsapp, .bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+
+.bi-facebook:hover {
+  color: #3b5998; }
+
+.bi-whatsapp:hover {
+  color: #25d366; }
+
+.bi-instagram:hover {
+  color: #8a3ab9; }

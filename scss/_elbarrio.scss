@@ -1,4 +1,5 @@
 /** Galeria ElBarrio**/
+
 .galeria .col-lg-4 {
   padding: 15px;
   img {
@@ -7,30 +8,34 @@
   }
 }
 
+@mixin sizes($width) {
+  width: $width;
+}
+
 .elbarrio {
   position: relative;
   overflow: hidden;
   margin: 10px 0px 0px 0px;
   &:before {
+    @include sizes(60%);
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0px;
-    width: 60%;
   }
   &:after {
+    @include sizes(100%);
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 1px;
-    width: 100%;
   }
   .elbarrio-img {
-    background-color: #e4e7ed;
+    background-color: $colorElBarrioImg;
     img {
-      width: 100%;
+      @include sizes(100%);
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
     }

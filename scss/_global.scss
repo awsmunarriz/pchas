@@ -1,4 +1,5 @@
 /* Reseteo */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +7,6 @@
 
 /* Tipografía general */
 body {
-  background-color: #cae7fa;
+  background-color: $colorBodyBackground;
   font-family: "Lato", sans-serif;
 }

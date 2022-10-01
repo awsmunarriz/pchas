@@ -1,142 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inicio</title>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <!-- GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-  <!-- Estilos -->
-  <link rel="stylesheet" href="css/main.css" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-sky fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="./img/logo.png"
+            class="img-fluid rounded-circle"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="./pages/historias.html">Historias</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="./pages/ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="./pages/elbarrio.html">El Barrio</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-sky fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="./img/logo.png" class="img-fluid rounded-circle"
-          alt="logo" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="./pages/historias.html">Historias</a>
+    <header>
+      <h1 class="nombre-sitio">Parque <span> Chas </span> Web</h1>
+    </header>
+
+    <main class="container-fluid mb-5">
+      <h2 class="text-center h2 mt-4 mb-4">Inicio</h2>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/fondo.jpg" class="d-block w-100" alt="fondo" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fondo2.jpg" class="d-block w-100" alt="fondo2" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fondo3.jpg" class="d-block w-100" alt="fondo3" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fondo4.jpg" class="d-block w-100" alt="fondo4" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fondo5.jpg" class="d-block w-100" alt="fondo5" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <section class="container-fluid mb-5">
+      <h2 class="text-center h3 mt-4 mb-4">Mitos y Leyendas</h2>
+      <div class="row">
+        <div class="alert alert-success col-lg-4 col-md-6" role="alert">
+          <h4 class="alert-heading">"Sus calles"</h4>
+          <p>
+            Por la forma de sus calles, el barrio tiene muchas leyendas urbanas,
+            destinadas a agrandar el mito de que cuando ingresa alguien no
+            residente a Parque Chas, indefectiblemente se pierde.
+          </p>
+          <p>
+            Si alguien se animara a dar la vuelta completa, aparecerá en
+            cualquier otro lugar del barrio Parque Chas, menos en el que
+            debería.
+          </p>
+        </div>
+        <div class="alert alert-success col-lg-4 col-md-6" role="alert">
+          <h4 class="alert-heading">“Crónicas del Ángel Gris”</h4>
+          <p>
+            La leyenda más famosa fue elaborada en las “Crónicas del Ángel Gris”
+            de Alejandro Dolina, que invita a siquiera acercarse a suelo
+            chasense.
+          </p>
+          <p>
+            Allí se precisa que está “prohibido” dirigirse a la manzana formada
+            por las calles Berna, Marsella, La Haya y Ginebra, y que si se lo
+            hace, se termina en cualquier otro lugar fuera del barrio. El relato
+            sostiene que distintos exploradores y especialistas han fallado en
+            su intento de vencer esa creencia.
+          </p>
+        </div>
+        <div class="alert alert-success col-lg-4 col-md-6" role="alert">
+          <h4 class="alert-heading">"Laberinto"</h4>
+          <p>
+            Cuenta la historias que en 1957 un grupo de exploradores franceses
+            aceptaron el desafío y, luego de intentarlo, aparecieron en Villa
+            Urquiza, un barrio ubicado a 3 kilómetros.
+          </p>
+          <p>
+            Otra vez, unos urbanistas catalanes formaron dos equipos y caminaron
+            en dirección opuesta con la idea de que se encontrarían en la mitad.
+            No fue así: después de unos largos minutos, uno de los grupos
+            apareció caminando detrás del otro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="row my-5 py-5 text-muted text-center text-small bg-sky">
+      <div class="col">
+        <div class="anchoFooter">
+          <div class="redes">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://wa.me/541131508000" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="./pages/ubicacion.html">Ubicación</a>
+          <li class="list-inline-item">
+            <a href="./pages/historias.html" class="nav-link px-2 text-muted"
+              >Historias</a
+            >
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="./pages/elbarrio.html">El Barrio</a>
+          <li class="list-inline-item">
+            <a href="./pages/ubicacion.html" class="nav-link px-2 text-muted"
+              >Ubicación</a
+            >
           </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          <li class="list-inline-item">
+            <a href="./pages/elbarrio.html" class="nav-link px-2 text-muted"
+              >El Barrio</a
+            >
+          </li>
+          <li class="list-inline-item">
+            <a href="./pages/contacto.html" class="nav-link px-2 text-muted"
+              >Contacto</a
+            >
           </li>
         </ul>
+        <p class="mb-1">© 2022 Parque Chas, Web</p>
       </div>
-    </div>
-  </nav>
-
-  <header>
-    <h1 class="nombre-sitio">Parque <span> Chas </span> Web</h1>
-  </header>
-
-  <main class="container-fluid mb-5">
-    <h2 class="text-center h2 mt-4 mb-4">Inicio</h2>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/fondo.jpg" class="d-block w-100" alt="fondo">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/fondo2.jpg" class="d-block w-100" alt="fondo2">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/fondo3.jpg" class="d-block w-100" alt="fondo3">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/fondo4.jpg" class="d-block w-100" alt="fondo4">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/fondo5.jpg" class="d-block w-100" alt="fondo5">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </main>
-
-  <section class="container-fluid mb-5">
-    <h2 class="text-center h3 mt-4 mb-4">Mitos y Leyendas</h2>
-    <div class="row">
-      <div class="alert alert-success col-lg-4 col-md-6" role="alert">
-        <h4 class="alert-heading">"Sus calles"</h4>
-        <p>Por la forma de sus calles, el barrio tiene muchas leyendas urbanas,
-          destinadas a agrandar el mito de que cuando ingresa alguien no
-          residente a Parque Chas, indefectiblemente se pierde.</p>
-        <p>Si alguien se animara a dar la vuelta completa, aparecerá en cualquier otro lugar del barrio Parque Chas,
-          menos en el que debería.</p>
-      </div>
-      <div class="alert alert-success col-lg-4 col-md-6" role="alert">
-        <h4 class="alert-heading">“Crónicas del Ángel Gris”</h4>
-        <p>
-          La leyenda más famosa fue elaborada en las “Crónicas del Ángel Gris” de
-          Alejandro Dolina, que invita a siquiera acercarse a suelo chasense.
-        </p>
-        <p>
-          Allí se precisa que está “prohibido” dirigirse a la manzana formada
-          por las calles Berna, Marsella, La Haya y Ginebra, y que si se lo
-          hace, se termina en cualquier otro lugar fuera del barrio. El relato
-          sostiene que distintos exploradores y especialistas han fallado en
-          su intento de vencer esa creencia.
-        </p>
-      </div>
-      <div class="alert alert-success col-lg-4 col-md-6" role="alert">
-        <h4 class="alert-heading">"Laberinto"</h4>
-        <p>Cuenta la historias que en 1957 un grupo de exploradores franceses aceptaron el desafío y, luego de
-          intentarlo, aparecieron en Villa Urquiza, un barrio ubicado a 3 kilómetros.</p>
-        <p>Otra vez, unos urbanistas
-          catalanes formaron dos equipos y caminaron en dirección opuesta con la idea de que se encontrarían en la
-          mitad. No fue así: después de unos largos minutos, uno de los grupos apareció caminando detrás del otro.</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="container-fluid bg-sky">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-        <li class="nav-item"><a href="./pages/historias.html" class="nav-link px-2 text-muted">Historias</a></li>
-        <li class="nav-item"><a href="./pages/ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
-        <li class="nav-item"><a href="./pages/elbarrio.html" class="nav-link px-2 text-muted">El Barrio</a></li>
-        <li class="nav-item"><a href="./pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-      </ul>
-      <p class="text-center text-muted">© 2022 Parque Chas, Web</p>
     </footer>
 
-  </div>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

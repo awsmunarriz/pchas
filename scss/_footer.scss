@@ -1,0 +1,36 @@
+/* Footer */
+
+.bi {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: $colorDefault;
+}
+
+.bi-facebook {
+  @extend .bi;
+}
+
+.bi-whatsapp {
+  @extend .bi;
+}
+
+.bi-instagram {
+  @extend .bi;
+}
+
+// MAP
+// Declarar el mapa
+$redes: (
+  bi-facebook: #3b5998,
+  bi-whatsapp: #25d366,
+  bi-instagram: #8a3ab9,
+);
+
+// Crear el bucle
+@each $red, $color in $redes {
+  .#{$red}:hover {
+    color: $color;
+  }
+}
