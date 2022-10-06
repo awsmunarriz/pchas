@@ -31,7 +31,7 @@ body {
 .btn {
   background-color: #04c3ee;
   display: block;
-  color: #fff;
+  color: #037bc0;
   text-transform: uppercase;
   font-weight: 900;
   padding: 1rem;
@@ -82,7 +82,7 @@ body {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: #fff; }
+  color: #037bc0; }
 
 .bi-facebook:hover {
   color: #3b5998; }
@@ -92,3 +92,10 @@ body {
 
 .bi-instagram:hover {
   color: #8a3ab9; }
+
+.anchoFooter {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.list-inline {
+  margin-top: 16px; }
