@@ -27,6 +27,10 @@ body {
   .nombre-sitio span {
     color: #037bc0; }
 
+/** Historias **/
+.card {
+  width: 18rem; }
+
 /** Formulario Contacto **/
 .btn {
   background-color: #04c3ee;
