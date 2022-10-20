@@ -35,7 +35,8 @@ body {
   font-weight: 650; }
 
 .titulo-sec {
-  font-weight: 630; }
+  font-weight: 630;
+  text-align: center; }
 
 .titulo-card {
   font-weight: 630;
