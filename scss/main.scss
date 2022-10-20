@@ -1,7 +1,7 @@
-@import "colors";
-@import "global";
-@import "nav";
-@import "historias";
-@import "contacto";
-@import "elbarrio";
-@import "footer";
+@import "./variables/colors";
+@import "./global/global";
+@import "./nav/nav";
+@import "./pages/historias";
+@import "./pages/contacto";
+@import "./pages/elbarrio";
+@import "./footer/footer";

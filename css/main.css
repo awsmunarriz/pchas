@@ -23,9 +23,23 @@ body {
 /** Header / Navegacion **/
 .nombre-sitio {
   margin-top: 8rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 800; }
   .nombre-sitio span {
     color: #037bc0; }
+
+.titulo-sitio {
+  font-weight: 700; }
+
+.titulo-bloque {
+  font-weight: 650; }
+
+.titulo-sec {
+  font-weight: 630; }
+
+.titulo-card {
+  font-weight: 630;
+  text-decoration: underline; }
 
 /** Historias **/
 .card {
