@@ -46,6 +46,9 @@ body {
 .card {
   width: 18rem; }
 
+.titulo-comuna {
+  font-weight: 630; }
+
 /** Formulario Contacto **/
 .btn {
   background-color: #04c3ee;
